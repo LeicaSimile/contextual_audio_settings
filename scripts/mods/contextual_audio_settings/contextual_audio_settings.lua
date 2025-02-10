@@ -68,3 +68,7 @@ mod.on_setting_changed = function()
 		check_context()
 	end
 end
+
+mod.on_enabled = function()
+	check_context()
+end

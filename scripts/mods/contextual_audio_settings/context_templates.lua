@@ -7,7 +7,7 @@ return {
             "options_sfx_slider",
         },
     },
-    StateGameplay = {
+    GameplayStateRun = {
         options = {
             "option_master_slider",
             "options_music_slider",
