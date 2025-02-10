@@ -20,7 +20,7 @@ local locs = {
 		["en"] = "Mourningstar Hub",
 	},
 	loading_group = {
-		["en"] = "Loading Screen",
+		["en"] = "Loading Screen / Mission Lobby",
 	},
 	mission_group = {
 		["en"] = "Missions",
