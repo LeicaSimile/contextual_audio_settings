@@ -48,10 +48,9 @@ local function check_context(state_name, game_mode_name)
 			context_key = context_templates[state_name].key
 		end
 	end
-	if not context_key then
-		context_key = context_templates.default.key
+	if context_key then
+		set_context_volume(context_key)
 	end
-	set_context_volume(context_key)
 end
 
 mod.on_game_state_changed = function(status, state_name)
