@@ -59,10 +59,6 @@ mod.on_game_state_changed = function(status, state_name)
 	end
 end
 
-mod:hook_safe("GameModeManager", "init", function(_, _, game_mode_name)
-	check_context(nil, game_mode_name)
-end)
-
 mod.on_setting_changed = function()
 	if mod:is_enabled() then
 		check_context()
